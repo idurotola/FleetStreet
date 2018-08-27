@@ -1,0 +1,19 @@
+.search-filter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #dfdfdf;
+  height: 40px;
+  padding-right: 10px;
+  font: 400 11px system-ui; }
+  .search-filter label {
+    text-transform: uppercase;
+    margin-right: 10px; }
+  .search-filter input {
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    outline: none; }
+    .search-filter input:focus {
+      border: 1px solid #2263E1; }
